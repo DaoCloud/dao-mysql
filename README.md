@@ -14,7 +14,7 @@ MySQL由于其性能高、成本低、可靠性好，已经成为最流行的开
 
 支持的环境变量如下：
 
-- MYSQL\_ROOT\_PASSWORD，必填，root用户密码
+- MYSQL\_ROOT\_PASSWORD，可选，root用户密码, 默认为root
 
 - MYSQL_DATABASE，可选，容器启动后自动创建一个指定名字的数据库实例
 
